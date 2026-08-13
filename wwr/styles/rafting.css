@@ -32,7 +32,6 @@ h2 {
     color: var(--secondary-color);
 }
 
-/* ==================== ENCABEZADO Y NAVEGACIÓN ==================== */
 header {
     background-color: var(--primary-color);
     color: var(--accent2-color);
@@ -83,11 +82,9 @@ header nav {
     background-color: #e0e0e0;
 }
 
-/* ==================== HERO (HOME PAGE - SOLUCIÓN A SUPERPOSICIÓN) ==================== */
 .hero {
     position: relative;
     height: 420px;
-    /* Anclamos la altura para evitar que colapse y se monte sobre lo de abajo */
     margin-bottom: 1.5rem;
     overflow: hidden;
 }
@@ -130,7 +127,6 @@ header nav {
     margin-left: 1rem;
 }
 
-/* ==================== SECCIONES HOME PAGE ==================== */
 .cta-button {
     display: inline-block;
     padding: 0.6rem 1.2rem;
@@ -209,7 +205,6 @@ header nav {
     object-fit: cover;
 }
 
-/* ==================== ABOUT US PAGE (TU CÓDIGO ORIGINAL) ==================== */
 .history-section {
     margin: 2rem 0;
 }
@@ -264,7 +259,6 @@ header nav {
     font-weight: bold;
 }
 
-/* ==================== CONTACT PAGE (TU CÓDIGO ORIGINAL) ==================== */
 .contact-header {
     text-align: center;
     margin: 1.5rem 0 2rem;
@@ -437,7 +431,6 @@ header nav {
     color: #333;
 }
 
-/* ==================== TRIPS PAGE (TU CÓDIGO ORIGINAL) ==================== */
 .trips-hero {
     text-align: center;
     margin: 1.5rem 0;
@@ -495,7 +488,6 @@ tr:nth-child(even) {
     background-color: var(--accent2-color);
 }
 
-/* ==================== PIE DE PÁGINA ==================== */
 footer {
     display: flex;
     justify-content: center;
