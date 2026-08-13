@@ -120,11 +120,15 @@ article {
     margin: 0;
     padding: 15px;
     border: 1px solid var(--primary-color);
+    display: flex;
+    align-items: center;
+    gap: 1rem;
 }
 
 .hero article img {
-    float: right;
-    width: 125px;
+    width: 120px;
+    height: auto;
+    flex-shrink: 0;
 }
 
 .adventures-section {
@@ -331,16 +335,19 @@ article {
 
 footer {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     border: 1px solid #777;
     background-color: #f8f8f8;
     padding: 1rem 1.5rem;
     margin-top: 0;
+    position: relative;
 }
 
 .socialmedia {
     display: flex;
+    position: absolute;
+    right: 1.5rem;
 }
 
 .socialmedia a {
@@ -351,4 +358,23 @@ footer {
 .socialmedia img {
     width: 32px;
     height: auto;
+}
+
+.history-section h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.history-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+.history-container img {
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 4px;
 }
