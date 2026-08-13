@@ -120,15 +120,13 @@ article {
     margin: 0;
     padding: 15px;
     border: 1px solid var(--primary-color);
-    display: flex;
-    align-items: center;
-    gap: 1rem;
 }
 
 .hero article img {
+    float: right;
     width: 120px;
     height: auto;
-    flex-shrink: 0;
+    margin-left: 1rem;
 }
 
 .adventures-section {
