@@ -109,7 +109,8 @@ header nav {
     margin: 0;
 }
 
-.hero article {
+.hero article,
+.hero .hero-article {
     position: absolute;
     bottom: 25px;
     left: 40px;
@@ -120,7 +121,8 @@ header nav {
     border: 1px solid var(--primary-color);
 }
 
-.hero article img {
+.hero article img,
+.hero .hero-article img {
     float: right;
     width: 120px;
     height: auto;
